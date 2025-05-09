@@ -6,7 +6,11 @@ public class EntradaNumero{
              int numeroEntero1 = Integer.parseInt(numero1);
              int numeroEntero2 = Integer.parseInt(numero2);
             System.out.println(numeroEntero1 +numeroEntero2);
-            
+
+            String numero3 = JOptionPane.showInputDialog("ingresa tu numero3");
+            String numero4 = JOptionPane.showInputDialog("ingresa tu numero4");
+            double numeroDecimal1 = double.showInputDialog(numero3);
+            double numeroDecimal1 = double.showInputDialog(numero4);
             
     }
 }
